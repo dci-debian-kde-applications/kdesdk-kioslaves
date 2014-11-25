@@ -1,7 +1,7 @@
 Source: kdesdk-kioslaves
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -15,8 +15,8 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdesdk-kioslaves.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdesdk-kioslaves.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kdesdk-kioslaves.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdesdk-kioslaves.git
 
 Package: kdesdk-kio-plugins
 Architecture: any
@@ -29,3 +29,15 @@ Description: transparent Subversion access and Perl documentation KIO slaves
  plugin, which can be used to browse the Perl documentation within Konqueror.
  .
  This package is part of the KDE Software Development Kit module.
+
+Package: kdesdk-kioslaves-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: kate-dbg,
+         kde-runtime-dbg,
+         kdesdk-kio-plugins (= ${binary:Version}),
+         ${misc:Depends}
+Description: debugging symbols for kdesdk-kio-plugins
+ This package contains debugging files used to investigate problems with
+ binaries included in kdesdk-kio-plugins.
