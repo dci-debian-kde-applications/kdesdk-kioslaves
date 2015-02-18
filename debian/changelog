@@ -1,9 +1,9 @@
-kdesdk-kioslaves (4:14.12.2-1~) UNRELEASED; urgency=medium
+kdesdk-kioslaves (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 18:36:23 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 19:00:23 +0100
 
 kdesdk-kioslaves (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
