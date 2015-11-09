@@ -1,9 +1,10 @@
-kdesdk-kioslaves (4:15.08.0-1~) UNRELEASED; urgency=medium
+kdesdk-kioslaves (4:15.08.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.3).
   * New upstream release (15.08.0).
+  * New upstream release (15.08.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 15:47:08 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:44:34 +0100
 
 kdesdk-kioslaves (4:14.12.2-1) experimental; urgency=medium
 
