@@ -29,15 +29,3 @@ Description: transparent Subversion access and Perl documentation KIO slaves
  plugin, which can be used to browse the Perl documentation within Konqueror.
  .
  This package is part of the KDE Software Development Kit module.
-
-Package: kdesdk-kioslaves-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kate-dbg,
-         kde-runtime-dbg,
-         kdesdk-kio-plugins (= ${binary:Version}),
-         ${misc:Depends}
-Description: debugging symbols for kdesdk-kio-plugins
- This package contains debugging files used to investigate problems with
- binaries included in kdesdk-kio-plugins.
