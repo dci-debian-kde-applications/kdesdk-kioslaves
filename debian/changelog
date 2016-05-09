@@ -1,3 +1,12 @@
+kdesdk-kioslaves (4:16.04.0-1~1.gbp81e8ff) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @81e8ffbbf7eeb5a824969b8be617cd4cb5c324ca **
+
+  * Bump Standards-Version to 3.9.8
+  * Migrate dbg package to automatic dbgsym
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 06:01:12 +0200
+
 kdesdk-kioslaves (4:15.08.3-1) experimental; urgency=medium
 
   * New upstream release (15.04.3).
