@@ -1,6 +1,6 @@
-kdesdk-kioslaves (4:16.04.0-1~2.gbpe2bf5e) UNRELEASED; urgency=medium
+kdesdk-kioslaves (4:16.04.0-1~3.gbpfd82f7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e2bf5ea28a73a040a44f0c5e93949965c7fb1439 **
+  ** SNAPSHOT build @fd82f7a82042a7bd02c0c486cd54a3432df4e729 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @81e8ffbbf7eeb5a824969b8be617cd4cb5c324ca **
@@ -11,8 +11,11 @@ kdesdk-kioslaves (4:16.04.0-1~2.gbpe2bf5e) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Disable svn support, it doesn't work with 1.9+
+    Thanks to Chris Lamb for the report (Closes: 799525)
+  * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:01:18 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 16 Jun 2016 17:01:15 +0200
 
 kdesdk-kioslaves (4:15.08.3-1) experimental; urgency=medium
 
