@@ -7,25 +7,19 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.6~),
-               debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
-               libsvn-dev,
-               pkg-kde-tools (>= 0.12)
+Build-Depends: cmake (>= 2.6~), debhelper (>= 9), pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdesdk-kioslaves.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdesdk-kioslaves.git
 
-Package: kdesdk-kio-plugins
+Package: kio-perldoc
 Architecture: any
 Section: devel
-Depends: subversion, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: perl-doc
-Description: transparent Subversion access and Perl documentation KIO slaves
- This package includes the svn and svn+ssh KIO plugins, which allows KDE
- applications to browse remote Subversion repositories, and the perldoc KIO
- plugin, which can be used to browse the Perl documentation within Konqueror.
+Description: Perl documentation KIO slave
+ This package includes the perldoc KIO plugin, which can be used to
+ browse the Perl documentation within Konqueror.
  .
  This package is part of the KDE Software Development Kit module.
