@@ -1,8 +1,17 @@
-kdesdk-kioslaves (4:16.04.1-0neon) xenial; urgency=medium
+kdesdk-kioslaves (4:16.04.0-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Migrate dbg package to automatic dbgsym
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:14:42 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Disable svn support, it doesn't work with 1.9+
+    Thanks to Chris Lamb for the report (Closes: 799525)
+  * Update install files
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 11:06:42 +0200
 
 kdesdk-kioslaves (4:15.08.3-1) experimental; urgency=medium
 
