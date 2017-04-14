@@ -24,6 +24,8 @@ Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: perl-doc
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: Perl documentation KIO slave
  This package includes the perldoc KIO plugin, which can be used to
  browse the Perl documentation within Konqueror.
