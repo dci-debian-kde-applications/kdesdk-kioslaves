@@ -13,7 +13,7 @@ Build-Depends: cmake (>= 2.6~),
                libkf5kio-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev,
-Standards-Version: 4.1.0
+Standards-Version: 4.1.2
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdesdk-kioslaves.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdesdk-kioslaves.git
