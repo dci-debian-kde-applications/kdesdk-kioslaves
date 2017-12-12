@@ -30,3 +30,13 @@ Description: Perl documentation KIO slave
  browse the Perl documentation within Konqueror.
  .
  This package is part of the KDE Software Development Kit module.
+
+Package: kdesdk-kio-plugins
+Architecture: all
+Section: oldlibs
+Depends: kio-perldoc (>= ${source:Version}),
+Description: transitional package for kio-perldoc
+ This package is a transitional package for kio-perldoc. It can be safely
+ removed after the upgrade.
+ .
+ This package is part of the KDE Software Development Kit module.

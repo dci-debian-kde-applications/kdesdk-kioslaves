@@ -8,6 +8,8 @@ kdesdk-kioslaves (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
+  * Re-add kdesdk-kio-plugins as transitional package for kio-perldoc
+    - force the local installation directory to debian/kio-perldoc
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:00:18 +0100
 
